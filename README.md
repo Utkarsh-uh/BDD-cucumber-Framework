@@ -16,35 +16,36 @@ This is a **BDD (Behavior-Driven Development)** framework using **Cucumber**, **
 ~~~ bash
 BDD/
 ├── src/
-│ ├── main/
-│ │ └── java/
-│ │ └── cucumberframework.BDD/
-│ │ └── App.java
-│ └── test/
-│ └── java/
-│ ├── cucumberoptions/
-│ │ ├── FailedTestRunner.java
-│ │ └── TestNgTestRunner.java
-│ ├── features/
-│ │ ├── checkout.feature
-│ │ └── searchProduct.feature
-│ ├── pageObjects/
-│ │ ├── CheckoutPage.java
-│ │ ├── LandingPage.java
-│ │ ├── OffersPage.java
-│ │ └── PageObjectManager.java
-│ ├── stepDefinitions/
-│ │ ├── CheckoutPageStepDefinition.java
-│ │ ├── Hooks.java
-│ │ ├── LandingPageStepDefinition.java
-│ │ └── OffersPageStepDefinition.java
-│ └── utils/
-│ ├── GenericUtils.java
-│ ├── TestBase.java
-│ └── TestContextSetup.java
-├── target/
+│   ├── main/
+│   │   └── java/
+│   │       └── cucumberframework.BDD/
+│   │           └── App.java
+│   └── test/
+│       └── java/
+│           ├── cucumberoptions/
+│           │   ├── FailedTestRunner.java
+│           │   └── TestNgTestRunner.java
+│           ├── features/
+│           │   ├── checkout.feature
+│           │   └── searchProduct.feature
+│           ├── pageObjects/
+│           │   ├── CheckoutPage.java
+│           │   ├── LandingPage.java
+│           │   ├── OffersPage.java
+│           │   └── PageObjectManager.java
+│           ├── stepDefinitions/
+│           │   ├── CheckoutPageStepDefinition.java
+│           │   ├── Hooks.java
+│           │   ├── LandingPageStepDefinition.java
+│           │   └── OffersPageStepDefinition.java
+│           └── utils/
+│               ├── GenericUtils.java
+│               ├── TestBase.java
+│               └── TestContextSetup.java
 ├── test-output/
+├── target/
 └── pom.xml
+
 ~~~
 
 ## 🧰 Key Features
