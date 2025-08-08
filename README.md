@@ -71,13 +71,13 @@ mvn clean test
 ```
 
 ## 3.Run via TestNG Runner
-# Using TestNgTestRunner.java
+### Using TestNgTestRunner.java
 ```bash
 mvn test -Dcucumber.options="--tags @Smoke"
 ```
 
 ## 4.Re-run Failed Tests
-# Executes only failed scenarios
+### Executes only failed scenarios
 ```bash
 mvn test -Dcucumber.options="@target/failed_scenarios.txt"
 ```
