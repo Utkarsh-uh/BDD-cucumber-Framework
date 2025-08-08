@@ -60,9 +60,31 @@ BDD/
 
  ## 🛠️ How to Run the Tests
 
-### 1. Clone the Repo
+## 1. Clone the Repo
 ```bash
-git clone  
+git clone https://github.com/Utkarsh-uh/BDD-cucumber-Framework.git
+cd BDD
+```
+## 2. Run All Tests with Maven
+mvn clean test
+
+## 3.Run via TestNG Runner
+# Using TestNgTestRunner.java
+mvn test -Dcucumber.options="--tags @Smoke"
+
+## 4.Re-run Failed Tests
+# Executes only failed scenarios
+mvn test -Dcucumber.options="@target/failed_scenarios.txt"
+
+## 📊 Reports
+After execution, test reports are available at:
+/test-output/
+
+## 🙋‍♂️ Author
+- Utkarsh Haste
+- Github: @utkarsh-uh
+
+
 
 
 
