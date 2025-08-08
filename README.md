@@ -1,4 +1,4 @@
-# BDD Cucumber Automation Framework
+# BDD Cucumber Framework
 
 This is a **BDD (Behavior-Driven Development)** framework using **Cucumber**, **Selenium WebDriver**, and **Maven** for automating web application testing.
 
