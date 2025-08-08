@@ -88,7 +88,7 @@ After execution, test reports are available at:
 
 ## 🙋‍♂️ Author
 - Utkarsh Haste
-- Github: @utkarsh-uh
+- Github:@Utkarsh-uh
 
 
 
