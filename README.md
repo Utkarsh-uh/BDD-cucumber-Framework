@@ -18,13 +18,8 @@ BDD/
 ├── src/
 │ ├── main/
 │ │ └── java/
-│ │ ├── cucumberframework.BDD/
-│ │ │ └── App.java
-│ │ └── pageObjects/
-│ │ ├── CheckoutPage.java
-│ │ ├── LandingPage.java
-│ │ ├── OffersPage.java
-│ │ └── PageObjectManager.java
+│ │ └── cucumberframework.BDD/
+│ │ └── App.java
 │ └── test/
 │ └── java/
 │ ├── cucumberoptions/
@@ -33,6 +28,11 @@ BDD/
 │ ├── features/
 │ │ ├── checkout.feature
 │ │ └── searchProduct.feature
+│ ├── pageObjects/
+│ │ ├── CheckoutPage.java
+│ │ ├── LandingPage.java
+│ │ ├── OffersPage.java
+│ │ └── PageObjectManager.java
 │ ├── stepDefinitions/
 │ │ ├── CheckoutPageStepDefinition.java
 │ │ ├── Hooks.java
@@ -42,9 +42,28 @@ BDD/
 │ ├── GenericUtils.java
 │ ├── TestBase.java
 │ └── TestContextSetup.java
-├── pom.xml
 ├── target/
 ├── test-output/
-└── README.md
+└── pom.xml
 ~~~
+
+## 🧰 Key Features
+
+- ✅ BDD using **Gherkin** syntax
+- ✅ Page Object Model (POM)
+- ✅ Modular & reusable step definitions
+- ✅ Context sharing using `TestContextSetup`
+- ✅ Parallel test execution support
+- ✅ Centralized WebDriver management
+- ✅ Failed test re-runs with `FailedTestRunner`
+- ✅ Detailed test reports (test-output folder)
+
+ ## 🛠️ How to Run the Tests
+
+### 1. Clone the Repo
+```bash
+git clone  
+
+
+
 
